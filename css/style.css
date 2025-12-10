@@ -6,7 +6,7 @@ body {
     align-items: center;  
     min-height: 100vh;  
     margin: 0;  
-    background: linear-gradient(135deg, #90A955 0%, #ECF39E 100%);
+    background: linear-gradient(135deg, #CBF3F0 0%, #2EC4B6 50%, #FFFFFF 100%);
 }  
 
 .container {  
@@ -30,7 +30,7 @@ input {
 
 button {  
     padding: 10px 20px;  
-    background-color: #90A955;  
+    background-color: #2EC4B6;  
     color: white;  
     border: none;  
     border-radius: 3px;  
@@ -40,24 +40,24 @@ button {
 }  
 
 button:hover {  
-    background-color: #7a9248;  
+    background-color: #26a599;  
 }  
   
 #message {  
     margin-top: 15px;  
-    color: #90A955;
+    color: #2EC4B6;
     font-weight: bold;
 }  
   
 nav a {  
     margin: 0 10px;  
     text-decoration: none;  
-    color: #90A955;  
+    color: #2EC4B6;  
     font-weight: bold;  
 }  
   
 nav a:hover {  
-    color: #7a9248;  
+    color: #26a599;  
 }
 
 /* Book List Styling */
@@ -76,7 +76,7 @@ nav a:hover {
     margin-bottom: 10px;
     background-color: #f9f9f9;
     border-radius: 3px;
-    border-left: 3px solid #90A955;
+    border-left: 3px solid #2EC4B6;
     display: flex;
     justify-content: space-between;
     align-items: center;
