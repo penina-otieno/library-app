@@ -1,0 +1,94 @@
+body {  
+    font-family: Arial, sans-serif;  
+    display: flex;  
+    flex-direction: column;  
+    justify-content: center;  
+    align-items: center;  
+    min-height: 100vh;  
+    margin: 0;  
+    background: linear-gradient(135deg, #90A955 0%, #ECF39E 100%);
+}  
+
+.container {  
+    background: white;  
+    padding: 20px 30px;  
+    border-radius: 5px;  
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);  
+    text-align: center;  
+    width: 300px;  
+}  
+
+input {  
+    display: block;  
+    width: 100%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border-radius: 3px;  
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}  
+
+button {  
+    padding: 10px 20px;  
+    background-color: #90A955;  
+    color: white;  
+    border: none;  
+    border-radius: 3px;  
+    cursor: pointer;
+    width: 100%;
+    margin-top: 5px;
+}  
+
+button:hover {  
+    background-color: #7a9248;  
+}  
+  
+#message {  
+    margin-top: 15px;  
+    color: #90A955;
+    font-weight: bold;
+}  
+  
+nav a {  
+    margin: 0 10px;  
+    text-decoration: none;  
+    color: #90A955;  
+    font-weight: bold;  
+}  
+  
+nav a:hover {  
+    color: #7a9248;  
+}
+
+/* Book List Styling */
+#bookList {
+    margin-top: 20px;
+}
+
+#bookList ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#bookList li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+    border-left: 3px solid #90A955;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bookList button {
+    width: auto;
+    padding: 5px 15px;
+    background-color: #dc3545;
+    margin: 0;
+}
+
+#bookList button:hover {
+    background-color: #c82333;
+}
