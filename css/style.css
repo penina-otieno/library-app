@@ -91,4 +91,39 @@ nav a:hover {
 
 #bookList button:hover {
     background-color: #c82333;
+}  
+
+
+/* Clean Top Navigation Bar Using Your Current Color Theme */
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.3);  /* Light transparent dark bar that fits your gradient */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 40px;
+    box-sizing: border-box;
+    backdrop-filter: blur(6px); /* Smooth glass-like effect */
+    z-index: 1000;
+}
+
+.nav-right a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;             /* Visible on dark bar */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-right a:hover {
+    opacity: 0.7;
+}
+
+/* Push container down so navbar does not overlap */
+.container {
+    margin-top: 100px;
 }
